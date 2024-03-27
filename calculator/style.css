@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('c1.jpg'); /* Direct URL to the image file */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.calculator {
+    border: 2px solid #717377; /* Increase border width for better visibility */
+    padding: 20px;
+    border-radius: 16px;
+    background: transparent;/* Transparent white background */
+    backdrop-filter: blur(10px); /* Add backdrop filter for transparency effect */
+    box-shadow: 0px 5px 20px rgba(113, 115, 119, 0.7); /* Adjusted shadow */
+}
+
+input {
+    width: 320px;
+    border: 1px solid black; /* Add black border */
+    padding: 24px;
+    margin: 10px;
+    background: rgba(255, 255, 255, 0.5); /* Transparent white background */
+    box-shadow: 0px 5px 20px rgba(84, 84, 84, 0.3); /* Adjusted shadow */
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: #000000; /* Black text color */
+}
+
+input::placeholder {
+    color: #000000; /* Black placeholder color */
+}
+
+button {
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5); /* Transparent white background */
+    color: #000000; /* Black text color */
+    font-size: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); /* Increased shadow */
+    cursor: pointer;
+}
+
+.equalBtn {
+    background-color: #fb7c14;
+}
+
+.operator {
+    font-size: 24px; /* Increase font size */
+    font-weight: bold; /* Make it thicker */
+    color: orange; /* Change color to orange */
+}
